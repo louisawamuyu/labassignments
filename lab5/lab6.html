@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   <head> 
+        <title>TODO supply a title </title>
+    </head>
+    <body>
+        <h3>Registration form</h3>
+        <form name ="register_form" action ="method="POST>
+             <!--form controls come here-->
+             full name*:
+             <input type ="text"required name="name"placeholder="Your name here"/>
+             <br></br>
+             DOB:
+             <input type="date'name="dob"required/>
+             <br></br>
+             Gender:
+             <input type="radio"required name="gender"/>Male
+             <input type="radio"required name="gender"/>Female
+             <br></br>
+             Email:
+             <input type="email"" name="email" placeholder="Enter your email"/>
+             <br></br>
+             Your lucky number:
+             <input type="number" name="lucky_number"/>
+             <br></br>
+             Select university:
+             <select name="university" required>
+             	<option value="">--select uni--</option>
+             	<option value="SU">Strathmore University</option>
+             	<option value="Ku">Kenyatta University</option>
+             	<option value ="MKU">Mount kenya University</option>
+             	<option value="UON">University of Nairobi</option>
+             </select>
+             <br></br>
+             Select programming languages:
+             <input type ="checkbox" name="cplusplus"/>c++
+             <input type="checkbox" name ="java"/>java
+             <input type="checkbox" name="c"/>c
+             <input type ="checkbox" name="csharp"/>c#
+             <input type ="checkbox" name="ptyhon"/>python
+
+             Your website link:
+             <input type ="url" name="link" placeholder="e.g http//www.su.edu"/> 
+             <br></br
+             Describe yourself (maximum :200characters): <br></form>
+             <textarea name="description" rows="5" cols="40" placeholder="Write your details here"></textarea>
+             <br></br>
+             <!--now it is time to create  button that will be clicked to submit to your server-->
+
+             <input type="submit" value="Register" name="submit_button"/>
+
+
+
+
+         </form>
+             
+
+
+    </body>
+  </html>     
